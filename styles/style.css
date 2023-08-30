@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    /* font-family: ; */
+}
+
+/* Header Style Part */
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    align-items: center;
+    padding: 50px  240px 0 240px;
+    margin-bottom: 178px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-title {
+    font-size: 80px;
+    font-weight: 800px;
+    color: #272727;
+}
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;                                                                          
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+.btn-primary {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    background: #E55473;
+}
+
+/* Feature Section Style Part */
+.feature-container {
+    margin-bottom: 128px;
+}
+.content-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.content-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 40px 0;
+}
+.feature-flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.img1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 78px;
+}
+.img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 47px 51px;
+}
+.img3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0 75px;
+}
+.feature-flower-container u {
+    font-size: 24px;
+    color: #E55473;
+}
+
+/* Outlet Section Style Part */
+.outlet-container {
+    background-color: #E55473; 
+    border-radius: 10px;
+    padding: 50px 240px;
+    margin-bottom: 128px;
+}
+.outlet-container .content-title, .content-description {
+    color: #FFF;
+}
+.outlet-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.outlet-img-container img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+/* Delivery and Support Section Style Part */
+.delivery-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 87px 175px;
+    margin: 0 240px 128px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.delivery-container p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Hot Deal Section Style Part */
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    align-items: center;
+    padding: 100px 400px;
+    margin-bottom: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hotDeal-subContainer, .hotDeal-subContainer .content-title, .hotDeal-subContainer .content-description {
+    text-align: center;
+}
+span {
+    color: #E55473;
+}
+
+/* Instagram Section Style Part */
+.instagram-container {
+    text-align: center;
+    margin-bottom: 128px;
+}
+.instagram-flower-container img {
+    margin-left: 20px;
+}
+
+/* Latest Section Style Part */
+.latest-container {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 121px 287px;
+    margin-bottom: 128px;
+}
+.latest-subContainer input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+}
+.latest-subContainer {
+    text-align: center;
+}
+
+/* Footer Section Style Part */
+.footer-container {
+    text-align: center;
+    background: #111010;
+    padding: 128px 650px;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
